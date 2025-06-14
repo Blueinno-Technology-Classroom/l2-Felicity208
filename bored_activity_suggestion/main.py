@@ -104,5 +104,5 @@ while True:
 
 
 
-cv2.destroyWindow("camera")
+cv2.destroyAllWindows()
 cv2.imwrite("image.png", img)
